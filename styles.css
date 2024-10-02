@@ -19,26 +19,26 @@ html {
   padding: 3rem;
 }
 
-.calender h1 {
+.calendar h1 {
   font-size: 5rem;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
 }
 
-.calender h1 span {
+.calendar h1 span {
   color: #86d293;
   font-style: italic;
   text-transform: uppercase;
 }
 
-.container .calender {
+.container .calendar {
   width: 60%;
   height: fit-content;
   margin-top: 3rem;
 }
 
-.calender .input-box {
+.calendar .input-box {
   display: flex;
   align-items: center;
   background-color: #c1e2a4;
@@ -99,7 +99,7 @@ html {
 }
 
 @media (max-width: 760px) {
-  .container .calender {
+  .container .calendar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,7 @@ html {
     width: 100%;
     text-align: center;
   }
-  .calender .input-box {
+  .calendar .input-box {
     width: 100%;
   }
   #result {
@@ -117,7 +117,7 @@ html {
 }
 
 @media (max-width: 414px) {
-  .container .calender {
+  .container .calendar {
     height: 40rem;
     width: 100%;
     display: flex;
@@ -127,10 +127,10 @@ html {
     text-align: center;
     gap: 1rem;
   }
-  .calender h1 {
+  .calendar h1 {
     font-size: 3rem;
   }
-  .calender .input-box {
+  .calendar .input-box {
     width: 100%;
     display: flex;
     flex-direction: column;
