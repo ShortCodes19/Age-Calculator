@@ -39,7 +39,7 @@ function calulateAge() {
   result.innerHTML = `You are <span>${y3}</span>  ${
     y3 === 0 || 1 ? "year" : "years"
   }, <span>${m3}</span> ${m3 === 0 || 1 ? "month" : "months"}  and <span>${d3}</span> ${
-    d3 === 0 || 1 ? "day" : "days"
+    d3 === 0 ? "day" : "days"
   } old.`;
 
   function getDaysInMonth(year, month) {
